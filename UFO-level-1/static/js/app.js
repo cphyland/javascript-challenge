@@ -20,3 +20,7 @@ function deleteTbody() {
         .selectAll("tr").remove()
         .selectAll("td").remove();
 };  
+
+// initial display of all UFO sightings
+console.log(tableData);
+tableDisplay(tableData);
