@@ -13,4 +13,6 @@ function tableDisplay(ufoSightings) {
       });
     });
   };
-  
+
+  // clear table for new data
+function deleteTbody() {
