@@ -42,3 +42,10 @@ button.on("click", function(event) {
         var filteredData = tableData.filter(ufoSighting => 
           ufoSighting.datetime === dateInput.trim());
       };
+
+      console.log(filteredData);
+      tableDisplay(filteredData);
+    });
+
+
+   
