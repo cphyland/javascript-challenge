@@ -27,3 +27,8 @@ tableDisplay(tableData);
 
 // 'Filter Table' button
 var button = d3.select("#filter-btn");
+
+// filter the database and display
+button.on("click", function(event) {
+    d3.event.preventDefault();
+    deleteTbody();
