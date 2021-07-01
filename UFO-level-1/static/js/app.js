@@ -24,3 +24,6 @@ function deleteTbody() {
 // initial display of all UFO sightings
 console.log(tableData);
 tableDisplay(tableData);
+
+// 'Filter Table' button
+var button = d3.select("#filter-btn");
